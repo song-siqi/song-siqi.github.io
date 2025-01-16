@@ -3,12 +3,8 @@ secondary_name: ""
 navbar_name: "Siqi Song"
 
 positions:
-  - name: Undergraduate Student
-    institution: Tsinghua University
-    date: Sep. 2021 - Present
-# - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-#   name: Position 1 with logo
-# - name: Position 2 without logo
+  - name: Undergraduate Student, Tsinghua University
+  - logo: /assets/images/badges/THU_badge.png  # Logo is optional
 
 
 email: "song_siqi@outlook.com"
@@ -39,7 +35,7 @@ portrait_url: /assets/images/photos/portrait.jpg
 
 education:
   - name: Tsinghua University
-    # logo: /assets/images/badges/THU.png
+    logo: /assets/images/badges/THU_badge.png
     position: B.S. in Electonic Engineering
     date: Sep. 2021 - Present
 # - name: Massachusetts Institute of Technology
