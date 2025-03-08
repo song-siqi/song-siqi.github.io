@@ -33,7 +33,7 @@ short_bio: >-
     My research interests focus on Robotics and Embodied Intelligence, especially on the following topics:
   </p>
   <ul>
-    <li><strong>Scalable and General-Purpose Humanoid Robot Learning</strong>: expanding data scale remains crucial for meaningful advances.</li>
+    <li><strong>Scalable and General-Purpose Robot Learning</strong>: expanding data scale remains crucial for meaningful advances, especially humanoids.</li>
     <li><strong>Robot Learning from Environmental and Human Interaction</strong>: to develop self-supervised learning approaches in real-world scenarios.</li>
     <li><strong>Reliable Robot Hardware Design</strong>: to explore the co-optimization of hardware and software solutions to create more robust robotic systems.</li>
   </ul>
