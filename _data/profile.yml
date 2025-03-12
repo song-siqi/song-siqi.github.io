@@ -29,8 +29,8 @@ short_bio: >-
     My research interests focus on Robot Learning and Embodied Intelligence, especially on the following topics:
   </p>
   <ul>
-    <li><strong>Scalable, Reliable and General-Purpose Robot Learning</strong>: can data scaling bring safe and robust perception and control, especially humanoids?</li>
-    <li><strong>Robot Learning from Environmental and Human Interaction</strong>: self-supervised embodiment learning, in both simulation and real-world scenarios.</li>
+    <li><strong>Scalable, Reliable and General-Purpose Robot Learning</strong>: Can data scaling bring safe and robust perception and control, especially humanoids?</li>
+    <li><strong>Robot Learning from Environmental and Human Interaction</strong>: Self-supervised embodiment learning, in both simulation and real-world scenarios.</li>
   </ul>
 
 portrait_url: /assets/images/photos/portrait.jpg
