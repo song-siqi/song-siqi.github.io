@@ -22,6 +22,8 @@ short_bio_text_justify: false
 short_bio: >-
   <p>
     I am currently a senior undergraduate at Department of Electronic Engineering, Tsinghua University.
+  </p>
+  <p>
     Previously, I had the privilege to work as an undergraduate research intern under the supervision of Prof. 
     <a href="https://yuewang.xyz/" target="_blank">Yue Wang</a>.
   </p>
@@ -29,8 +31,8 @@ short_bio: >-
     My research interests focus on Robot Learning and Embodied Intelligence, especially on the following topics:
   </p>
   <ul>
-    <li><strong>Scalable, Reliable and General-Purpose Robot Learning</strong>: Can data scaling bring safe and robust perception and control, especially humanoids?</li>
-    <li><strong>Robot Learning from Environmental and Human Interaction</strong>: Self-supervised embodiment learning, in both simulation and real-world scenarios.</li>
+    <li><strong>Scalable, Reliable and General-Purpose Robot Learning</strong>: Can data scaling bring robust perception and control, especially humanoids?</li>
+    <li><strong>Learning from Environment and Human Interaction</strong>: Self-supervised robot learning, in both simulation and real-world scenarios.</li>
   </ul>
 
 portrait_url: /assets/images/photos/portrait.jpg
