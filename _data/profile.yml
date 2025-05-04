@@ -35,9 +35,10 @@ short_bio: >-
   <ul>
     <li><strong>Advancing Robot-Environment-Human Interaction</strong>: With the intricate dynamics of reality, how can robots seamlessly engage in complex yet meaningful interactions with the environment and humans?</li>
     <li><strong>Learning the Embodiment and Understanding the Environment</strong>: How do robotic embodiments grasp their own physical capabilities and properties, as well as the characteristics of the surrounding environment? Furthermore, how does this knowledge shape their decision-making processes and execution strategies?</li>
-    <li><strong>Multi-agent Collaboration</strong>: How can multiple embodiments work together to tackle complex problems?</li>
     <li><strong>Reinforcement Learning and Self-Supervised Learning</strong>: How do these methodologies enhance the efficiency of learning for embodiments?</li>
   </ul>
+
+#     <li><strong>Multi-agent Collaboration</strong>: How can multiple embodiments work together to tackle complex problems?</li>
 
 portrait_url: /assets/images/photos/portrait.jpg
 # portrait_caption: >-
