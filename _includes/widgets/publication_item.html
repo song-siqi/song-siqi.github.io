@@ -14,10 +14,10 @@
         </div>
         <div class="col-md-7 col-xl-8 p-3 pl-md-0" style="min-height: 200px;">
             <div>
-                <h5 class="mt-0 mb-3 font-weight-normal">{{ item.title }}</h5>
-                <p class="mt-0 mb-3 small" style="line-height: 1.6;">{% include widgets/author_list.html authors=item.authors %}</p>
-                <p class="mt-0 mb-3 small" style="line-height: 1.6;">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}</p>
-                <p class="mt-0 mb-3 small text-muted" style="line-height: 1.7;">{{ item.abstract }}</p>
+                <h5 class="mt-0 mb-2 font-weight-normal">{{ item.title }}</h5>
+                <p class="mt-0 mb-2 small" style="line-height: 1.6;">{% include widgets/author_list.html authors=item.authors %}</p>
+                <p class="mt-0 mb-2 small" style="line-height: 1.6;">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }}</p>
+                <p class="mt-0 mb-2 small text-muted" style="line-height: 1.6;">{{ item.abstract }}</p>
                 
                 <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
                     {% for link in item.links %}
