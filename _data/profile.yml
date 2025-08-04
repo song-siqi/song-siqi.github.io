@@ -30,14 +30,19 @@ short_bio: >-
     <strong>I am currently seeking for an Ph.D./R.A. position starting from Fall 2026.</strong> Feel free to drop me an email if you are interested in my research or have any questions.
   </p>
   <p>
-    My research interests focus on Embodied Intelligence and Robotics, in particular on the following aspects:
+    My interests focus on Robotic Intelligence and Reinforcement Learning, in particular on the following aspects:
   </p>
   <ul>
+    <li><strong>Reinforcement Learning</strong>: How Reinforcement Learning scales and how can this boost robotic learning?</li>
     <li><strong>Advancing Robot-Environment-Human Interaction</strong>: With the intricate dynamics of reality, how can robots seamlessly engage in complex yet meaningful interactions with the environment and humans?</li>
     <li><strong>Learning the Embodiment and Understanding the Environment</strong>: How do robotic embodiments grasp their own physical capabilities and properties, as well as the characteristics of the surrounding environment? Furthermore, how does this knowledge shape their decision-making processes and execution strategies?</li>
-    <li><strong>Reinforcement Learning and Self-Supervised Learning</strong>: How do these methodologies enhance the efficiency of learning for embodiments?</li>
+    <li><strong>Multi-agent Collaboration</strong>: How can multiple embodiments work together to tackle complex problems?</li>
   </ul>
 
+#     My research interests focus on Embodied Intelligence and Robotics, in particular on the following aspects:
+#     <li><strong>Advancing Robot-Environment-Human Interaction</strong>: With the intricate dynamics of reality, how can robots seamlessly engage in complex yet meaningful interactions with the environment and humans?</li>
+#     <li><strong>Learning the Embodiment and Understanding the Environment</strong>: How do robotic embodiments grasp their own physical capabilities and properties, as well as the characteristics of the surrounding environment? Furthermore, how does this knowledge shape their decision-making processes and execution strategies?</li>
+#     <li><strong>Reinforcement Learning and Self-Supervised Learning</strong>: How do these methodologies enhance the efficiency of learning for embodiments?</li>
 #     <li><strong>Multi-agent Collaboration</strong>: How can multiple embodiments work together to tackle complex problems?</li>
 
 portrait_url: /assets/images/photos/portrait.jpg
