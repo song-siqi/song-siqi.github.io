@@ -3,11 +3,25 @@
     <div class="row no-gutters justify-content-center {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
         <div class="col-md-4 col-xl-3 mb-md-0 p-md-3">
             {%- if item.cover -%}
-            <img data-src="{{ item.cover | relative_url }}"
-                 alt="{{ item.title }}"
-                 class="lazy w-100 rounded-sm"
-                 style="object-fit: cover"
-                 src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
+                {%- assign is_video = false -%}
+                {%- if item.cover contains '.mp4' or item.cover contains '.webm' or item.cover contains '.ogg' -%}
+                    {%- assign is_video = true -%}
+                {%- endif -%}
+                
+                {%- if is_video -%}
+                <video class="w-100 rounded-sm" 
+                       style="object-fit: cover; max-height: 200px;"
+                       autoplay loop muted playsinline>
+                    <source src="{{ item.cover | relative_url }}" type="video/{{ item.cover | split: '.' | last }}">
+                    Your browser does not support the video tag.
+                </video>
+                {%- else -%}
+                <img data-src="{{ item.cover | relative_url }}"
+                     alt="{{ item.title }}"
+                     class="lazy w-100 rounded-sm"
+                     style="object-fit: cover"
+                     src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
+                {%- endif -%}
             {%- else -%}
             <svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
             {%- endif -%}
@@ -33,8 +47,24 @@
     </div>
 </div>
 
-<div class="row no-gutters d-md-none justify-content-center {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray {% if include.first %}rounded-top{% endif %} {% if include.last %}rounded-bottom{% endif %} {% if item.cover %}lazy{% endif %}" data-src="{{ item.cover | relative_url }}">
-    <div class="w-100" style="background-color: rgba(255,255,255,0.9);">
+<div class="d-md-none {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray {% if include.first %}rounded-top{% endif %} {% if include.last %}rounded-bottom{% endif %}" style="position: relative; overflow: hidden;">
+    {%- if item.cover -%}
+        {%- assign is_video_mobile = false -%}
+        {%- if item.cover contains '.mp4' or item.cover contains '.webm' or item.cover contains '.ogg' -%}
+            {%- assign is_video_mobile = true -%}
+        {%- endif -%}
+        
+        {%- if is_video_mobile -%}
+        <video style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 0;"
+               autoplay loop muted playsinline>
+            <source src="{{ item.cover | relative_url }}" type="video/{{ item.cover | split: '.' | last }}">
+        </video>
+        {%- else -%}
+        <div class="lazy" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover; background-position: center; z-index: 0;" data-src="{{ item.cover | relative_url }}"></div>
+        {%- endif -%}
+    {%- endif -%}
+    
+    <div class="w-100" style="background-color: rgba(255,255,255,0.9); position: relative; z-index: 1;">
         <div class="d-flex align-items-start flex-column py-3 px-4">
             <div class="mb-auto"></div>
             <div>
