@@ -30,9 +30,6 @@ short_bio: >-
     <a href="https://yuewang.xyz/" target="_blank">Yue Wang</a>.
   </p>
   <p>
-    <strong>I am currently seeking for an Ph.D. position starting from Fall 2026.</strong> Feel free to drop me an email if you are interested in my research or have any questions.
-  </p>
-  <p>
     My interests focus on Robotics and Embodied Intelligence, in particular on the following aspects:
   </p>
   <ul>
@@ -40,6 +37,9 @@ short_bio: >-
     <li><strong>Leveraging Human World Knowledge for Robotic Perception</strong>: How can low-cost, readily available data be used to provide prior knowledge and enhance the scalability of robotic systems?</li>
     <li><strong>Advancing Robot-Environment-Human Interaction</strong>: How can we conceptualize the modality of action and its effects on the real world? Given the complex dynamics of reality, how can robots achieve rich and meaningful interactions with both the environment and humans?</li>
   </ul>
+  <p>
+    <strong style=\"color: red;\">I am currently seeking for an Ph.D. position starting from Fall 2026.</strong> Feel free to drop me an email if you are interested in my research or have any questions.
+  </p>
 
 
 
