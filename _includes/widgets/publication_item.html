@@ -1,7 +1,7 @@
 {% assign item = include.item %}
 <div class="d-none d-md-block">
-    <div class="row no-gutters justify-content-center align-items-center {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
-        <div class="col-md-4 col-xl-3 mb-md-0 p-md-3">
+    <div class="row no-gutters align-items-center {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
+        <div class="col-md-4 col-xl-3 mb-md-0 p-md-3 d-flex align-items-center justify-content-center">
             {%- if item.cover -%}
                 {%- assign is_video = false -%}
                 {%- if item.cover contains '.mp4' or item.cover contains '.webm' or item.cover contains '.ogg' -%}
