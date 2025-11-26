@@ -30,18 +30,21 @@ short_bio: >-
     <a href="https://yuewang.xyz/" target="_blank">Yue Wang</a>.
   </p>
   <p>
-    My interests focus on Robotics and Embodied Intelligence, in particular on the following aspects:
+    My interests focus on Robot Learning and Embodied Intelligence, with a focus on how robots can <strong>acquire and use world knowledge</strong> to act reliably in open-ended environments, and how this process can become a <strong>data flywheel for scalable robotic systems</strong>.
   </p>
   <ul>
-    <li><strong>Reinforcement Learning</strong>: How can Reinforcement Learning scale, and how can this scaling accelerate robotic learning?</li>
-    <li><strong>Leveraging Human World Knowledge for Robotic Perception</strong>: How can low-cost, readily available data be used to provide prior knowledge and enhance the scalability of robotic systems?</li>
-    <li><strong>Advancing Robot-Environment-Human Interaction</strong>: How can we conceptualize the modality of action and its effects on the real world? Given the complex dynamics of reality, how can robots achieve rich and meaningful interactions with both the environment and humans?</li>
+    <li><strong>Leveraging Human World Knowledge for Scalable Robotic Perception</strong>: How to make use of multiple sources of data such as human demonstrations, foundation models, Internet data, and synthetic data? How to leverage these abundant, low-cost data into perceptual priors for scalable robotic systems?</li>
+    <li><strong>Robotic Action and Interaction</strong>: How to understand the modality of action, thus unifying low-level control with high-level reasoning? How can we model the semantics, dependencies, and affordances of robotic actions to seek robust and generalizable robotic behavior?</li>
+    <li><strong>Reinforcement Learning for Embodied Knowledge Acquisition</strong>: How can we scale Reinforcement Learning to turn it into a practical engine for autonomous robotic data collection, forming a self-improving data flywheel that continually strengthens generalizability of robotic perception and control?</li>
   </ul>
   <p>
     <strong style="color: red;">I am seeking a Ph.D. position starting from Fall 2026!</strong> Feel free to drop me an email if you are interested in my research or have any questions!
   </p>
 
-
+#    My interests focus on Robotics and Embodied Intelligence, in particular on the following aspects:
+#    <li><strong>Reinforcement Learning</strong>: How can Reinforcement Learning scale, and how can this scaling accelerate robotic learning?</li>
+#    <li><strong>Leveraging Human World Knowledge for Robotic Perception</strong>: How can low-cost, readily available data be used to provide prior knowledge and enhance the scalability of robotic systems?</li>
+#    <li><strong>Advancing Robot-Environment-Human Interaction</strong>: How can we conceptualize the modality of action and its effects on the real world? Given the complex dynamics of reality, how can robots achieve rich and meaningful interactions with both the environment and humans?</li>
 
 #    My interests focus on Robotic Intelligence and Reinforcement Learning, in particular on the following aspects:
 #    <li><strong>Reinforcement Learning</strong>: How Reinforcement Learning scales and how can this boost robotic learning?</li>
