@@ -35,7 +35,7 @@ short_bio: >-
   <ul>
     <li><strong>Leveraging Human World Knowledge for Scalable Robotic Perception</strong>: How to make use of multiple sources of data such as human demonstrations, foundation models, Internet data, and synthetic data? How to leverage these abundant, low-cost data into universal perceptual priors for scalable robotic systems?</li>
     <li><strong>Robotic Action and Interaction</strong>: How to understand the modality of action, thus unifying low-level control with high-level reasoning? How can we model the semantics, dependencies, and affordances of robotic actions to seek robust and generalizable robotic behavior?</li>
-    <li><strong>Reinforcement Learning for Embodied Knowledge Acquisition</strong>: How can we scale RL to turn it into a practical engine for autonomous robotic data collection, forming a self-improving data flywheel that continually strengthens generalizability of robotic perception and control?</li>
+    <li><strong>Reinforcement Learning for Embodied Knowledge Acquisition</strong>: How can we scale RL to turn it into an engine for autonomous robotic data collection, forming a self-improving data flywheel that continually strengthens generalizability of robotic perception and control?</li>
   </ul>
   <p>
     <strong style="color: red;">I am seeking a Ph.D. position starting from Fall 2026!</strong> Feel free to drop me an email if you are interested in my research or have any questions!
