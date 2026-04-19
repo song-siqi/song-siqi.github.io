@@ -22,14 +22,14 @@ short_bio_text_justify: false
 short_bio: >-
   <p>
     I am currently a senior undergraduate in the Department of Electronic Engineering at Tsinghua University.</br>
-    
-    I will begin my Ph.D. journey in Computer Science in Fall 2026.
 
     Previously, I visited <a href="https://bair.berkeley.edu" target="_blank">Berkeley AI Research (BAIR)</a>, 
     where I was advised by Prof. <a href="https://people.eecs.berkeley.edu/~malik/" target="_blank">Jitendra Malik</a>.
 
     I also worked as an undergraduate research intern under the supervision of Prof. 
-    <a href="https://yuewang.xyz/" target="_blank">Yue Wang</a>.
+    <a href="https://yuewang.xyz/" target="_blank">Yue Wang</a>.</br>
+    
+    I will begin my Ph.D. journey in Computer Science in Fall 2026.
   </p>
   <p>
     My interests focus on Robot Learning and Embodied Intelligence, with a focus on how robots can <strong>acquire and use world knowledge</strong> to act reliably in open-ended environments, and how this process can become a <strong>data flywheel for scalable robotic systems</strong>.
