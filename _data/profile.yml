@@ -23,18 +23,10 @@ short_bio_text_justify: false
 short_bio: >-
   <p>
     I am currently a senior undergraduate in the Department of Electronic Engineering at Tsinghua University.</br>
-
-    Previously, I visited <a href="https://bair.berkeley.edu" target="_blank">Berkeley AI Research (BAIR)</a>, 
-    where I was advised by Prof. <a href="https://people.eecs.berkeley.edu/~malik/" target="_blank">Jitendra Malik</a>.
-
-    I also worked as an undergraduate research intern under the supervision of Prof. 
-    <a href="https://yuewang.xyz/" target="_blank">Yue Wang</a>.</br>
-    
     I will begin my Ph.D. journey in Computer Science at <a href="https://siebelschool.illinois.edu/" target="_blank">University of Illinois at Urbana-Champaign</a> in Fall 2026.
   </p>
   <p>
     My interests focus on Robot Learning and Embodied Intelligence, with a focus on how robots can <strong>acquire and use world knowledge</strong> to act reliably in open-ended environments, and how this process can become a <strong>data flywheel for scalable robotic systems</strong>.
-    
     Feel free to drop me an email if you are interested in my research or have any questions!
   </p>
 #  <ul>
@@ -71,11 +63,11 @@ education_experience:
     date: Sep. 2021 - Present
   - name: University of California, Berkeley
     logo: /assets/images/badges/Berkeley_badge.jpg
-    position: "Undergraduate Visiting Researcher, Advisor: Prof. Jitendra Malik"
+    position: "Undergraduate Visiting Researcher, Advisor: Prof. <a href='https://people.eecs.berkeley.edu/~malik/' target='_blank'>Jitendra Malik</a>"
     date: Jun. 2025 - Aug. 2025
   - name: University of Southern California
     logo: /assets/images/badges/USC_badge.jpg
-    position: "Undergraduate Visiting Researcher, Advisor: Prof. Yue Wang"
+    position: "Undergraduate Visiting Researcher, Advisor: Prof. <a href='https://yuewang.xyz/' target='_blank'>Yue Wang</a>"
     date: Jul. 2024 - Dec. 2024
 
 awards:
