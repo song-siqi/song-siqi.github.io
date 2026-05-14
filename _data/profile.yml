@@ -71,11 +71,11 @@ education_experience:
     date: Sep. 2021 - Present
   - name: University of California, Berkeley
     logo: /assets/images/badges/THU_badge.png
-    position: Undergraduate Visiting Researcher, Advisor: Prof. Jitendra Malik
+    position: "Undergraduate Visiting Researcher, Advisor: Prof. Jitendra Malik"
     date: Jun. 2025 - Aug. 2025
   - name: University of Southern California
     logo: /assets/images/badges/THU_badge.png
-    position: Undergraduate Visiting Researcher, Advisor: Prof. Yue Wang
+    position: "Undergraduate Visiting Researcher, Advisor: Prof. Yue Wang"
     date: Jul. 2024 - Dec. 2024
 
 awards:
