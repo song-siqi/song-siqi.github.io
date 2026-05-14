@@ -7,7 +7,8 @@ positions:
     logo: /assets/images/badges/THU_badge.png  # Logo is optional
 
 
-email: "song_siqi@outlook.com"
+# email: "song_siqi@outlook.com"
+email: "siqis3@illinois.edu"
 # cv_link: link-to-your-cv-file
 gscholar: RLhDYpjOQcMC  # This is an example, replace it with your own Google Scholar ID
 github: song-siqi
@@ -29,7 +30,7 @@ short_bio: >-
     I also worked as an undergraduate research intern under the supervision of Prof. 
     <a href="https://yuewang.xyz/" target="_blank">Yue Wang</a>.</br>
     
-    I will begin my Ph.D. journey in Computer Science in Fall 2026.
+    I will begin my Ph.D. journey in Computer Science at <a href="https://siebelschool.illinois.edu/" target="_blank">University of Illinois at Urbana-Champaign</a> in Fall 2026.
   </p>
   <p>
     My interests focus on Robot Learning and Embodied Intelligence, with a focus on how robots can <strong>acquire and use world knowledge</strong> to act reliably in open-ended environments, and how this process can become a <strong>data flywheel for scalable robotic systems</strong>.
