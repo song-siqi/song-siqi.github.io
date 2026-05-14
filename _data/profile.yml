@@ -64,23 +64,19 @@ portrait_url: /assets/images/photos/portrait.jpg
 # portrait_caption: >-
   # Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
-education:
+education_experience:
   - name: Tsinghua University
     logo: /assets/images/badges/THU_badge.png
     position: B.S. in Electonic Engineering
     date: Sep. 2021 - Present
-# - name: Massachusetts Institute of Technology
-#   logo: /assets/images/badges/MIT_Social_circle.png
-#   position: >- 
-#     Department of Electrical Engineering and Computer Science <br/>
-#     Ph.D. Student
-#   date: Sep. 2024 - present
-
-# experience:
-# - name: Peking University
-#   logo: /assets/images/badges/PKU_red.png
-#   position: Research Intern
-#   date: Sep. 2019 - Jul. 2021
+  - name: Berkeley AI Research (BAIR)
+    logo: /assets/images/badges/THU_badge.png
+    position: Undergraduate Research Intern
+    date: Jun. 2025 - Aug. 2025
+  # - name: Peking University
+  #   logo: /assets/images/badges/PKU_red.png
+  #   position: Research Intern
+  #   date: Sep. 2019 - Jul. 2021
 
 awards:
 - name: Chinese National Scholarship
