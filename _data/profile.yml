@@ -4,7 +4,7 @@ navbar_name: "Siqi Song"
 
 positions:
   - name: Undergraduate Student, Tsinghua University
-    logo: /assets/images/badges/THU_badge.png  # Logo is optional
+    # logo: /assets/images/badges/THU_badge.png  # Logo is optional
 
 
 # email: "song_siqi@outlook.com"
