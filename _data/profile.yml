@@ -69,14 +69,14 @@ education_experience:
     logo: /assets/images/badges/THU_badge.png
     position: B.S. in Electonic Engineering
     date: Sep. 2021 - Present
-  - name: Berkeley AI Research (BAIR)
+  - name: University of California, Berkeley
     logo: /assets/images/badges/THU_badge.png
-    position: Undergraduate Research Intern
+    position: Undergraduate Visiting Researcher, Advisor: Prof. Jitendra Malik
     date: Jun. 2025 - Aug. 2025
-  # - name: Peking University
-  #   logo: /assets/images/badges/PKU_red.png
-  #   position: Research Intern
-  #   date: Sep. 2019 - Jul. 2021
+  - name: University of Southern California
+    logo: /assets/images/badges/THU_badge.png
+    position: Undergraduate Visiting Researcher, Advisor: Prof. Yue Wang
+    date: Jul. 2024 - Dec. 2024
 
 awards:
 - name: Chinese National Scholarship

@@ -1,23 +1,21 @@
 {% if site.data.profile.education_experience %}
 <div class="my-3 bg-white shadow-sm rounded-sm">
     <h5 class="p-3 mb-0 border-bottom border-gray">Education & Experience</h5>
-    <div class="px-3 pb-1">
-        <div class="mx-2 my-1">
-            <ul class="list-unstyled mb-1">
-                {% for item in site.data.profile.education_experience %}
-                <li class="media mb-3">
-                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 20px;" class="mr-2 mt-1">
-                    <div class="media-body">
-                        <div class="font-weight-bold">{{ item.name }}</div>
-                        <div class="d-flex text-muted">
-                            <div>{{ item.position }}{% if item.dept %}, {{ item.dept }}{% endif %}</div>
-                            <div class="ml-auto no-break"><em>{{ item.date }}</em></div>
-                        </div>
+    <div class="px-3 pb-3">
+        <ul class="list-unstyled mb-0 mt-2">
+            {% for item in site.data.profile.education_experience %}
+            <li class="media {% unless forloop.last %}mb-3{% endunless %}">
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 20px;" class="mr-3 mt-1">
+                <div class="media-body">
+                    <div class="font-weight-bold" style="line-height: 1.4;">{{ item.name }}</div>
+                    <div class="d-flex text-muted">
+                        <div>{{ item.position }}{% if item.dept %}, {{ item.dept }}{% endif %}</div>
+                        <div class="ml-auto no-break"><em>{{ item.date }}</em></div>
                     </div>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
 </div>
 {% endif %}
@@ -25,19 +23,17 @@
 {% if site.data.profile.awards %}
 <div class="my-3 bg-white shadow-sm rounded-sm">
     <h5 class="p-3 mb-0 border-bottom border-gray">Honors & Awards</h5>
-    <div class="px-3 pb-1">
-        <div class="mx-2 my-1">
-            <ul class="list-unstyled mb-1">
-                {% for item in site.data.profile.awards %}
-                <li class="mb-2">
-                    <div class="d-flex">
-                        <div>{{ item.name }}</div>
-                        <div class="ml-auto text-muted"><em>{{ item.date }}</em></div>
-                    </div>
-                </li>
-                {% endfor %}
-            </ul>
-        </div>
+    <div class="px-3 pb-3">
+        <ul class="list-unstyled mb-0 mt-2">
+            {% for item in site.data.profile.awards %}
+            <li class="{% unless forloop.last %}mb-2{% endunless %}">
+                <div class="d-flex">
+                    <div>{{ item.name }}</div>
+                    <div class="ml-auto text-muted"><em>{{ item.date }}</em></div>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
 </div>
 {% endif %}
