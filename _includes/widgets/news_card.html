@@ -2,7 +2,7 @@
 
 <div class="my-3 bg-white shadow-sm rounded-sm">
     <h5 class="p-3 mb-0 border-bottom border-gray">News</h5>
-    <div class="px-3 pb-2">
+    <div class="px-4 pb-2">
         {% for year in news_by_year %}
         <div class="media py-1 {% if not_first -%}border-top border-gray{%- endif %}">
             {% assign not_first = true %}
