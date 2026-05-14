@@ -22,8 +22,8 @@ wechat_qrcode: /assets/images/etc/wechat.jpg
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am currently a senior undergraduate in the Department of Electronic Engineering at Tsinghua University.</br>
-    I will begin my Ph.D. journey in Computer Science at <a href="https://siebelschool.illinois.edu/" target="_blank">University of Illinois at Urbana-Champaign</a> in Fall 2026.
+    I am currently a senior undergraduate in the <a href="https://ee.tsinghua.edu.cn/" target="_blank">Department of Electronic Engineering</a> at <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>.</br>
+    I will begin my Ph.D. journey in Computer Science at <a href="https://siebelschool.illinois.edu/" target="_blank">University of Illinois Urbana-Champaign</a> in Fall 2026.
   </p>
   <p>
     My interests focus on Robot Learning, with a focus on how robots can <strong>acquire and use world knowledge</strong> to act reliably in open-ended environments, and how this process can become a <strong>data flywheel for scalable robotic systems</strong>.
