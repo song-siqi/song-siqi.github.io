@@ -5,7 +5,7 @@
         <ul class="list-unstyled mb-0 mt-2">
             {% for item in site.data.profile.education_experience %}
             <li class="media {% unless forloop.last %}mb-4{% endunless %}">
-                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 38px; height: 38px; object-fit: contain;" class="mr-3 mt-1">
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 38px; height: 38px; object-fit: contain;" class="mr-2 mt-1">
                 <div class="media-body">
                     <div class="font-weight-bold" style="line-height: 1.2; font-size: 1.1rem;">{{ item.name }}</div>
                     <div class="text-muted mt-1">
@@ -24,16 +24,13 @@
 <div class="my-3 bg-white shadow-sm rounded-sm">
     <h5 class="p-3 mb-0 border-bottom border-gray">Honors & Awards</h5>
     <div class="px-4 pb-4">
-        <ul class="list-unstyled mb-0 mt-2">
-            {% for item in site.data.profile.awards %}
-            <li class="{% unless forloop.last %}mb-2{% endunless %}">
-                <div class="d-flex">
+            <ul class="list-unstyled mb-0 mt-2">
+                {% for item in site.data.profile.awards %}
+                <li class="{% unless forloop.last %}mb-2{% endunless %}">
                     <div>{{ item.name }}</div>
-                    <div class="ml-auto text-muted"><em>{{ item.date }}</em></div>
-                </div>
-            </li>
-            {% endfor %}
-        </ul>
+                </li>
+                {% endfor %}
+            </ul>
     </div>
 </div>
 {% endif %}
