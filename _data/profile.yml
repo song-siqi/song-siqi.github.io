@@ -59,7 +59,7 @@ portrait_url: /assets/images/photos/portrait.jpg
 education_experience:
   - name: Tsinghua University
     logo: /assets/images/badges/THU_badge.png
-    position: "B.S. in Electonic Engineering, Thesis Advisor: Prof.<a href='https://web.ee.tsinghua.edu.cn/zhoubowen/zh_CN/index.htm' target='_blank'>Bowen Zhou</a>"
+    position: "B.S. in Electonic Engineering, Thesis Advisor: Prof. <a href='https://web.ee.tsinghua.edu.cn/zhoubowen/zh_CN/index.htm' target='_blank'>Bowen Zhou</a>"
     date: Sep. 2021 - Present
   - name: University of California, Berkeley
     logo: /assets/images/badges/Berkeley_badge.jpg
