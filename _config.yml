@@ -53,4 +53,4 @@ defaults:
       type: blog
     values:
       layout: post
-      navbar_title: Blog
+      navbar_title: Blogs
