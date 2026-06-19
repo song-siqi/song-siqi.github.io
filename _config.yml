@@ -35,6 +35,22 @@ plugins:
 # timezone: Asia/Shanghai
 
 collections:
-  - publications
-  - news
-  - showcase
+  publications:
+    output: false
+  news:
+    output: false
+  showcase:
+    output: false
+  blog:
+    output: true
+    permalink: /blogs/:name
+
+# Default front matter so every blog post uses the post layout and
+# highlights the "Blog" entry in the navbar without repeating it per-post.
+defaults:
+  - scope:
+      path: ""
+      type: blog
+    values:
+      layout: post
+      navbar_title: Blog

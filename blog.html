@@ -1,0 +1,42 @@
+---
+layout: default
+title: Blog
+navbar_title: Blog
+permalink: /blogs
+---
+
+{% assign posts_by_year = site.blog | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
+
+<div class="row">
+    <div class="col-12">
+        {% if posts_by_year.size == 0 %}
+        <div class="my-3 p-4 bg-white shadow-sm rounded-sm text-muted">
+            No posts yet. Stay tuned!
+        </div>
+        {% else %}
+        {% for year in posts_by_year %}
+        <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
+        <div class="my-0 p-0 bg-white shadow-sm rounded-sm">
+            {% for item in year.items %}
+            <a href="{{ item.url | relative_url }}" class="d-block text-decoration-none text-dark p-4 {% unless forloop.last %}border-bottom border-gray{% endunless %}">
+                <div class="media">
+                    {% if item.thumbnail %}
+                    <img src="{{ item.thumbnail | relative_url }}" class="mr-3 rounded" style="width: 96px; height: 96px; object-fit: cover;" alt="{{ item.title }}">
+                    {% endif %}
+                    <div class="media-body">
+                        <div class="d-flex">
+                            <h5 class="mb-1">{{ item.title }}</h5>
+                            <div class="ml-auto pl-3 text-muted no-break"><i>{{ item.date | date: "%b %d, %Y" }}</i></div>
+                        </div>
+                        {% if item.description %}
+                        <div class="text-muted">{{ item.description }}</div>
+                        {% endif %}
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+        {% endfor %}
+        {% endif %}
+    </div>
+</div>
