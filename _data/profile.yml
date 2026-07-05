@@ -23,7 +23,7 @@ short_bio_text_justify: false
 short_bio: >-
   <p>
     I am currently a Ph.D. student in Computer Science at <a href="https://siebelschool.illinois.edu/" target="_blank">University of Illinois Urbana-Champaign</a>, advised by Prof. <a href="https://tongzhang-ml.org/" target="_blank">Tong Zhang</a> and Prof. <a href="https://huan-zhang.com/" target="_blank">Huan Zhang</a>.
-    Previously, I received my B.S. in <a href="https://ee.tsinghua.edu.cn/" target="_blank">Electronic Engineering</a> from <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> in 2026, where I was recognized as an Outstanding Graduate.
+    Previously, I received my B.Eng. in <a href="https://ee.tsinghua.edu.cn/" target="_blank">Electronic Engineering</a> from <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> in 2026, where I was recognized as an Outstanding Graduate.
   </p>
   <p>
     My interests focus on Robot Learning, with a focus on how robots can <strong>acquire and use world knowledge</strong> to act reliably in open-ended environments, and how this process can become a <strong>data flywheel for scalable robotic systems</strong>.
@@ -59,7 +59,7 @@ portrait_url: /assets/images/photos/portrait.jpg
 education_experience:
   - name: Tsinghua University
     logo: /assets/images/badges/THU_badge.png
-    position: "B.S. in Electonic Engineering, Thesis Advisor: Prof. <a href='https://web.ee.tsinghua.edu.cn/zhoubowen/zh_CN/index.htm' target='_blank'>Bowen Zhou</a>"
+    position: "B.Eng. in Electronic Engineering, Thesis Advisor: Prof. <a href='https://web.ee.tsinghua.edu.cn/zhoubowen/zh_CN/index.htm' target='_blank'>Bowen Zhou</a>"
     date: Sep. 2021 - Jun. 2026
   - name: University of California, Berkeley
     logo: /assets/images/badges/Berkeley_badge.jpg
