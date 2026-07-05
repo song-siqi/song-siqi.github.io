@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Siqi Song"
 
 positions:
-  - name: Undergraduate Student, Tsinghua University
+  - name: Incoming Ph.D. Student, University of Illinois Urbana-Champaign
     # logo: /assets/images/badges/THU_badge.png  # Logo is optional
 
 
@@ -22,8 +22,8 @@ wechat_qrcode: /assets/images/etc/wechat.jpg
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am currently a senior undergraduate in the <a href="https://ee.tsinghua.edu.cn/" target="_blank">Department of Electronic Engineering</a> at <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a>.</br>
-    I will begin my Ph.D. journey in Computer Science at <a href="https://siebelschool.illinois.edu/" target="_blank">University of Illinois Urbana-Champaign</a> in Fall 2026.
+    I am currently a Ph.D. student in <a href="https://siebelschool.illinois.edu/" target="_blank">Computer Science at University of Illinois Urbana-Champaign</a>.</br>
+    I received my B.S. in <a href="https://ee.tsinghua.edu.cn/" target="_blank">Electronic Engineering</a> from <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> in 2026, where I was recognized as an Outstanding Graduate.
   </p>
   <p>
     My interests focus on Robot Learning, with a focus on how robots can <strong>acquire and use world knowledge</strong> to act reliably in open-ended environments, and how this process can become a <strong>data flywheel for scalable robotic systems</strong>.
@@ -60,7 +60,7 @@ education_experience:
   - name: Tsinghua University
     logo: /assets/images/badges/THU_badge.png
     position: "B.S. in Electonic Engineering, Thesis Advisor: Prof. <a href='https://web.ee.tsinghua.edu.cn/zhoubowen/zh_CN/index.htm' target='_blank'>Bowen Zhou</a>"
-    date: Sep. 2021 - Present
+    date: Sep. 2021 - Jun. 2026
   - name: University of California, Berkeley
     logo: /assets/images/badges/Berkeley_badge.jpg
     position: "Undergraduate Visiting Researcher, Advisor: Prof. <a href='https://people.eecs.berkeley.edu/~malik/' target='_blank'>Jitendra Malik</a>"
@@ -71,6 +71,7 @@ education_experience:
     date: Jul. 2024 - Dec. 2024
 
 awards:
+- name: Outstanding Graduate, Tsinghua University, 2026
 - name: Scholarship for Academic Excellence, Tsinghua University, 2025
 - name: Chinese National Scholarship, 2024
 - name: Scholarship for Comprehensive Excellence, Tsinghua University, 2023
