@@ -22,8 +22,8 @@ wechat_qrcode: /assets/images/etc/wechat.jpg
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am currently a Ph.D. student in Computer Science at <a href="https://siebelschool.illinois.edu/" target="_blank">University of Illinois Urbana-Champaign</a>, advised by Prof. <a href="https://tongzhang-ml.org/" target="_blank">Tong Zhang</a> and Prof. <a href="https://huan-zhang.com/" target="_blank">Huan Zhang</a>.</br>
-    I received my B.S. in <a href="https://ee.tsinghua.edu.cn/" target="_blank">Electronic Engineering</a> from <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> in 2026, where I was recognized as an Outstanding Graduate.
+    I am currently a Ph.D. student in Computer Science at <a href="https://siebelschool.illinois.edu/" target="_blank">University of Illinois Urbana-Champaign</a>, advised by Prof. <a href="https://tongzhang-ml.org/" target="_blank">Tong Zhang</a> and Prof. <a href="https://huan-zhang.com/" target="_blank">Huan Zhang</a>.
+    Previously, I received my B.S. in <a href="https://ee.tsinghua.edu.cn/" target="_blank">Electronic Engineering</a> from <a href="https://www.tsinghua.edu.cn/" target="_blank">Tsinghua University</a> in 2026, where I was recognized as an Outstanding Graduate.
   </p>
   <p>
     My interests focus on Robot Learning, with a focus on how robots can <strong>acquire and use world knowledge</strong> to act reliably in open-ended environments, and how this process can become a <strong>data flywheel for scalable robotic systems</strong>.
