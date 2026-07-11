@@ -52,7 +52,8 @@ short_bio: >-
 #     <li><strong>Reinforcement Learning and Self-Supervised Learning</strong>: How do these methodologies enhance the efficiency of learning for embodiments?</li>
 #     <li><strong>Multi-agent Collaboration</strong>: How can multiple embodiments work together to tackle complex problems?</li>
 
-portrait_url: /assets/images/photos/portrait.jpg
+# portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/portrait_260711.jpg
 # portrait_caption: >-
   # Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
