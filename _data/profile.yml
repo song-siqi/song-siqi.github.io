@@ -58,6 +58,10 @@ portrait_url: /assets/images/photos/portrait_260711.jpg
   # Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education_experience:
+  - name: University of Illinois Urbana-Champaign
+    logo: /assets/images/badges/UIUC_badge.png
+    position: "Ph.D. Student in Computer Science, Advisors: Prof. <a href='https://tongzhang-ml.org/' target='_blank'>Tong Zhang</a> and Prof. <a href='https://huan-zhang.com/' target='_blank'>Huan Zhang</a>"
+    date: Aug. 2026 - Present
   - name: Tsinghua University
     logo: /assets/images/badges/THU_badge.png
     position: "B.Eng. in Electronic Engineering, Thesis Advisor: Prof. <a href='https://web.ee.tsinghua.edu.cn/zhoubowen/zh_CN/index.htm' target='_blank'>Bowen Zhou</a>"

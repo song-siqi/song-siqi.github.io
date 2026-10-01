@@ -2,7 +2,8 @@
 title:          "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation"
 date:           2026-09-29 00:00:00 +0000
 selected:       true
-pub:            "arXiv preprint arXiv:2609.38078"
+# pub:            "arXiv preprint arXiv:2609.38078"
+pub_post:       'Under review.'
 pub_date:       "2026"
 
 abstract: >-
